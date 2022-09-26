@@ -1,0 +1,222 @@
+   /* CSS RESET */
+
+   body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
+    background: url('./img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    width: 100%;
+
+}
+
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 62px;
+    left: 14px;
+
+}
+
+.left img {
+    width: 74px;
+    height: 64px;
+    margin: -43px 20px 0px 28px;
+    padding: 4px 20px;
+
+}
+
+.left div {
+    text-align: center;
+    font-size: 10px;
+    line-height: 19px;
+
+}
+
+.mid {
+    /* Three conditions to center an element */
+    /* border: 2px solid yellow; */
+    display: block;
+    width: 62%;
+    height: 25px;
+    margin: 20px auto;
+    font-size: 8px;
+
+
+
+}
+
+.right {
+    /* border: 2px solid green; */
+    position: absolute;
+    top: 20px;
+    right: 34px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 38px;
+    margin: 0px 9px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: maroon;
+}
+
+/* Using pseudo selector :nth-last-of-type()  */
+.navbar li:nth-last-of-type(1) {
+    background-color: rgba(168, 165, 165, 0.48);
+    margin-right: 4px
+}
+
+.navbar li:nth-last-of-type(2) {
+    background-color: rgba(168, 165, 165, 0.48);
+    margin-right: 4px
+}
+
+.navbar li:nth-last-of-type(3) {
+    background-color: rgba(168, 165, 165, 0.48);
+    margin-right: 4px
+}
+
+.navbar li:nth-last-of-type(4) {
+    background-color: rgba(168, 165, 165, 0.48);
+    margin-right: 4px
+}
+
+/* Using pseudo selector :empty()  */
+
+.division {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+div:empty {
+
+    background: #80000061;
+    border: 4px solid #ffffff70;
+    height: 150px;
+    width: 98.5vw;
+    margin: 663px 0px 0px -18px;
+    padding: 300px 0px 0px 0px;
+}
+
+
+/* Using pseudo selector :not()  */
+:not(.color) {
+    color: rgb(188, 174, 156);
+}
+
+/* Using pseudo selector :lang()  */
+p:lang(en) {
+    border: 3px solid #adff2f70;
+    border-radius: 23px;
+}
+
+/* Using pseudo selector :nth-of-type(1)*/
+.btn:nth-of-type(1) {
+    background-color: black;
+    color: grey;
+    padding: 4px 14px;
+    margin: 0px 9px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn:nth-of-type(2) {
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    margin: 0px 9px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+.btn:hover {
+    background-color: rgb(35, 33, 33);
+}
+
+.btn1 {
+    width: 50%;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    margin: 0px 9px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.container {
+    margin: 106px 80px;
+    border: 2px solid white;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 416px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Baloo Bhai 2', cursive;
+
+}
+
+.container button {
+    display: block;
+    width: 50%;
+    margin: 27px auto;
+}
